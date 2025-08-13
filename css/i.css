@@ -87,7 +87,9 @@
             min-height: 700px;
             display: flex;
             align-items: center;
-            background: linear-gradient(135deg, rgba(74 90 166 / 90%), rgba(72 47 124 / 80%)), url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') no-repeat center center;
+            /* background: linear-gradient(135deg, rgba(74 90 166 / 90%), rgba(72 47 124 / 80%)), url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') no-repeat center center; */
+            background: linear-gradient(135deg, rgba(74 90 166 / 90%), rgba(72 47 124 / 80%)), url('../images/homepage.avif') no-repeat center center;
+            
             /* 135deg, rgb(74 90 166 / 90%), rgb(72 47 124 / 80%)) */
             background-size: cover;
             color: white;
@@ -308,8 +310,11 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxkZWZzPjxwYXR0ZXJuIGlkPSJwYXR0ZXJuIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHBhdHRlcm5UcmFuc2Zvcm09InJvdGF0ZSg0NSkiPjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3QgZmlsbD0idXJsKCNwYXR0ZXJuKSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg==');
+           background-image: url("../images/stats.svg");
+            /* background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxkZWZzPjxwYXR0ZXJuIGlkPSJwYXR0ZXJuIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHBhdHRlcm5UcmFuc2Zvcm09InJvdGF0ZSg0NSkiPjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3QgZmlsbD0idXJsKCNwYXR0ZXJuKSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg=='); */
+
         }
+
 
         .stat-item {
             position: relative;
@@ -385,7 +390,8 @@
         /* Contact Section */
         .contact-section {
             padding: 6rem 0;
-            background: linear-gradient(135deg, rgba(30, 64, 175, 0.9)0%, rgba(37, 99, 235, 0.9)100%), url('https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80') no-repeat center center;
+            /* background: linear-gradient(135deg, rgba(30, 64, 175, 0.9)0%, rgba(37, 99, 235, 0.9)100%), url('https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80') no-repeat center center; */
+            background: linear-gradient(135deg, rgba(30, 64, 175, 0.9)0%, rgba(37, 99, 235, 0.9)100%), url('../images/contact-bg.jpg') no-repeat center center;
             background-size: cover;
             color: white;
             position: relative;
@@ -747,4 +753,3 @@
   scroll-behavior: smooth;
 }
     /* </style> */
-    
